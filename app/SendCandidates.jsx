@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 import Form from './Form';
 import Success from './Success';
 import Warn from './Warn';
@@ -25,6 +26,7 @@ class SendCandidates extends React.Component {
   render() {
     return (
       <div>
+        <Link to="/">Home</Link>
         <h1>Send Candidates to Hiring Manager</h1>
         { this.state.display === 'warn' ?
           <Warn
