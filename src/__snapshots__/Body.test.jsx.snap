@@ -1,0 +1,12 @@
+exports[`test Link changes the class when hovered 1`] = `
+<textarea
+  onChange={undefined}
+  style={
+    Object {
+      "height": "480px",
+      "marginBottom": "20px",
+      "width": "100%",
+    }
+  }
+  value="foo" />
+`;
