@@ -1,14 +1,14 @@
 import React from 'react';
 
-const prom = new Promise((resolve) => {
-  setTimeout(resolve, 1000);
-});
+// const prom = new Promise((resolve) => {
+  // setTimeout(resolve, 1000);
+// });
 
 class Warn extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {loading: true};
-    prom.then(() => { this.setState({loading: false}); });
+    this.state = {loading: false};
+    // prom.then(() => { this.setState({loading: false}); });
   }
   render() {
     return (
